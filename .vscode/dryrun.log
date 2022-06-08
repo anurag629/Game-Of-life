@@ -1,0 +1,10 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/anurag/Desktop/my work/Game-Of-life'
+gcc -c main.c -Wall -Werror -pedantic -ansi
+gcc -c readFromFile.c -Wall -Werror -pedantic -ansi
+gcc -c drawLife.c -Wall -Werror -pedantic -ansi
+gcc -c nextPhase.c -Wall -Werror -pedantic -ansi
+gcc -c countNeighbour.c -Wall -Werror -pedantic -ansi
+gcc main.o readFromFile.o drawLife.o nextPhase.o countNeighbour.o -o life
+make: Leaving directory '/home/anurag/Desktop/my work/Game-Of-life'
+ 
